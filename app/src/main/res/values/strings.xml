@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Calc-kit</string>
+    <string name="intro">Welcome to Calc-kit</string>
+    <string name="basic">Basic Calculator</string>
+    <string name="sci">Scientific Calculator</string>
+    <string name="unit">Unit Converter</string>
+    <string name="main_butt1">Basic Calculator</string>
+    <string name="main_butt2">Scientific Calculator</string>
+    <string name="main_butt3">Unit Converter</string>
+
+    <string name="hint">Enter the value</string>
+    <string name="ans">Answer</string>
+    <string name="convert">Convert</string>
+    <string name="oneText">1</string>
+    <string name="twoText">2</string>
+    <string name="threeText">3</string>
+    <string name="fourText">4</string>
+    <string name="fiveText">5</string>
+    <string name="sixText">6</string>
+    <string name="sevenText">7</string>
+    <string name="eightText">8</string>
+    <string name="nineText">9</string>
+    <string name="zeroText">0</string>
+
+    <string name="clearText">C</string>
+    <string name="parenthesesOpenText">(</string>
+    <string name="parenthesesCloseText">)</string>
+    <string name="divideText">÷</string>
+    <string name="multiplyText">×</string>
+    <string name="addText">+</string>
+    <string name="subtractText">-</string>
+    <string name="decimalText">.</string>
+    <string name="equalsText">=</string>
+
+    <string name="trigSinText">sin</string>
+    <string name="trigCosText">cos</string>
+    <string name="trigTanText">tan</string>
+    <string name="trigArcSinText">sin<sup><small>-1</small></sup></string>
+    <string name="trigArcCosText">cos<sup><small>-1</small></sup></string>
+    <string name="trigArcTanText">tan<sup><small>-1</small></sup></string>
+    <string name="naturalLogText">ln</string>
+    <string name="LogText">log</string>
+    <string name="squareRootText">√</string>
+    <string name="radian">Rad</string>
+    <string name="absoluteValueText">|x|</string>
+    <string name="piText">π</string>
+    <string name="eText">e</string>
+    <string name="xSquaredText">x<sup><small>2</small></sup></string>
+    <string name="xPowerYText">x<sup><small>y</small></sup></string>
+    <string name="isPrimeFunctionText">isPrime</string>
+
+    <string name="curr">Currency</string>
+    <string name="weight">Weight</string>
+    <string name="time">Time</string>
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="temp">Temperature</string>
+    <string name="to">To</string>
+    <string name="backspace"> </string>
+
+    <string-array name="areaa">
+        <item>Square metre</item>
+        <item>Square inch</item>
+        <item>Square foot</item>
+        <item>Square kilometre</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>
+    <string-array name="lengthh">
+        <item>Millimetres</item>
+        <item>Centimetres</item>
+        <item>Metres</item>
+        <item>Kilometres</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Miles</item>
+    </string-array>
+    <string-array name="tempp">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="currencyy">
+        <item>US Dollars</item>
+        <item>Indian Rupees</item>
+        <item>Euro</item>
+    </string-array>
+    <string-array name="timee">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+    </string-array>
+    <string-array name="weightt">
+        <item>Tonnes</item>
+        <item>Pounds</item>
+        <item>Ounces</item>
+        <item>Kilograms</item>
+        <item>Grams</item>
+    </string-array>
+</resources>
