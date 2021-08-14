@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Time">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,52 +48,54 @@
             app:cardCornerRadius="20dp"
             app:cardMaxElevation="20dp">
             <Spinner
-                android:id="@+id/timespin1"
+                android:id="@+id/lengthspin1"
                 android:layout_width="115dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:entries="@array/timee"/>
+                android:entries="@array/lengthh"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/to"
                 android:layout_gravity="center_horizontal"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textColor="@color/black"/>
             <Spinner
-                android:id="@+id/timespin2"
+                android:id="@+id/lengthspin2"
                 android:layout_width="115dp"
+                android:entries="@array/lengthh"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:entries="@array/timee"/>
+                android:layout_gravity="end"/>
             <EditText
-                android:id="@+id/timein"
+                android:id="@+id/lengthin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="130dp"
                 android:hint="@string/hint"
-                android:textSize="20sp"
+                android:textSize="24sp"
                 android:textColor="@color/black"
                 android:textAlignment="center"/>
             <Button
-                android:id="@+id/timeconv"
+                android:id="@+id/lenconv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="160dp"
+                android:layout_marginTop="240dp"
+                android:textSize="18sp"
                 android:text="@string/convert"
                 android:textColor="@color/tanAccent"
                 android:background="@drawable/func_butt"/>
             <TextView
-                android:id="@+id/timeans"
+                android:id="@+id/lengthans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25sp"
+                android:textSize="21sp"
                 android:textColor="@color/redBackground"
-                android:layout_marginTop="250dp"
+                android:layout_marginTop="315dp"
                 android:layout_gravity="center_horizontal"/>
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+
 </RelativeLayout>
