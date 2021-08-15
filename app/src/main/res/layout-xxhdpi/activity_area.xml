@@ -48,11 +48,11 @@
             app:cardCornerRadius="20dp"
             app:cardMaxElevation="20dp">
             <Spinner
-                android:id="@+id/lengthspin1"
+                android:id="@+id/areaspin1"
                 android:layout_width="115dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:entries="@array/lengthh"/>
+                android:entries="@array/areaa"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,13 +61,13 @@
                 android:textSize="36sp"
                 android:textColor="@color/black"/>
             <Spinner
-                android:id="@+id/lengthspin2"
+                android:id="@+id/areaspin2"
                 android:layout_width="115dp"
-                android:entries="@array/lengthh"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"/>
+                android:layout_gravity="end"
+                android:entries="@array/areaa"/>
             <EditText
-                android:id="@+id/lengthin"
+                android:id="@+id/areain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -77,7 +77,7 @@
                 android:textColor="@color/black"
                 android:textAlignment="center"/>
             <Button
-                android:id="@+id/lenconv"
+                android:id="@+id/areaconv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -86,12 +86,12 @@
                 android:textColor="@color/tanAccent"
                 android:background="@drawable/func_butt"/>
             <TextView
-                android:id="@+id/lengthans"
+                android:id="@+id/areaans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/redBackground"
-                android:layout_marginTop="300dp"
+                android:layout_marginTop="310dp"
                 android:layout_gravity="center_horizontal"/>
         </androidx.cardview.widget.CardView>
 
