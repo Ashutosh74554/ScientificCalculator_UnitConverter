@@ -18,12 +18,6 @@ public class Unit extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_unit);
 
-            LinearLayout lint = findViewById(R.id.backgr);
-            AnimationDrawable anDr = (AnimationDrawable) lint.getBackground();
-            anDr.setEnterFadeDuration(2500);
-            anDr.setExitFadeDuration(5000);
-            anDr.start();
-
             currency = findViewById(R.id.currency);
             weight = findViewById(R.id.weight);
             time = findViewById(R.id.time);
